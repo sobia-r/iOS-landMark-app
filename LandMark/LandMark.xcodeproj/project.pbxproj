@@ -81,11 +81,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BA549B42B4C7AB90045D7DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BD7EC452B49DA7600C70A44 /* ModelData.swift */,
+				8BD7EC432B49CFBE00C70A44 /* LandMark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BA549B52B4C7AF70045D7DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B623C272B487D5E00698542 /* MapView.swift */,
+				8B39BEC92B4482FE000DCAC0 /* CircleImage.swift */,
+				8BC240162B433E9700948D61 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BA549B62B4C7B270045D7DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BD7EC412B49CF1D00C70A44 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		8BC240082B433E9700948D61 = {
 			isa = PBXGroup;
 			children = (
-				8BD7EC432B49CFBE00C70A44 /* LandMark.swift */,
-				8BD7EC452B49DA7600C70A44 /* ModelData.swift */,
 				8BC240132B433E9700948D61 /* LandMark */,
 				8BC240242B433E9900948D61 /* LandMarkTests */,
 				8BC2402E2B433E9900948D61 /* LandMarkUITests */,
@@ -106,11 +131,10 @@
 		8BC240132B433E9700948D61 /* LandMark */ = {
 			isa = PBXGroup;
 			children = (
-				8BD7EC412B49CF1D00C70A44 /* landmarkData.json */,
+				8BA549B62B4C7B270045D7DA /* Resources */,
+				8BA549B42B4C7AB90045D7DA /* Model */,
+				8BA549B52B4C7AF70045D7DA /* Views */,
 				8BC240142B433E9700948D61 /* LandMarkApp.swift */,
-				8BC240162B433E9700948D61 /* ContentView.swift */,
-				8B39BEC92B4482FE000DCAC0 /* CircleImage.swift */,
-				8B623C272B487D5E00698542 /* MapView.swift */,
 				8BC240182B433E9800948D61 /* Assets.xcassets */,
 				8BC2401A2B433E9800948D61 /* Preview Content */,
 			);
