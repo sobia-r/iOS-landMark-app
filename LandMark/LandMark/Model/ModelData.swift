@@ -9,7 +9,7 @@
 
 import Foundation
 
-
+var landmarks: [LandMark] = load("landmarkData.json")
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
