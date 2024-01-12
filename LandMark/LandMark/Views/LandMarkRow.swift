@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarkRow: View {
-var landmark: LandMark
+    var landmark: LandMark
 
 
     var body: some View {
@@ -25,6 +25,6 @@ var landmark: LandMark
 }
 
 
-#Preview {
+#Preview("Everest") {
     LandmarkRow(landmark: landmarks[0])
 }
