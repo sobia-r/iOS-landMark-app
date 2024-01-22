@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115024DC2B5EBE7F00A631B4 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115024DB2B5EBE7F00A631B4 /* BadgeBackground.swift */; };
 		11644F4C2B5C39A9009334ED /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11644F4B2B5C39A9009334ED /* HexagonParameters.swift */; };
 		8B39BECA2B4482FE000DCAC0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BEC92B4482FE000DCAC0 /* CircleImage.swift */; };
 		8B50D71D2B5309AF0032B160 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B50D71C2B5309AF0032B160 /* LandmarkDetail.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		115024DB2B5EBE7F00A631B4 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		11644F4B2B5C39A9009334ED /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		8B39BEC92B4482FE000DCAC0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		8B50D71C2B5309AF0032B160 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				8BD7EC452B49DA7600C70A44 /* ModelData.swift */,
 				8BD7EC432B49CFBE00C70A44 /* LandMark.swift */,
 				11644F4B2B5C39A9009334ED /* HexagonParameters.swift */,
+				115024DB2B5EBE7F00A631B4 /* BadgeBackground.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				8BB6F03B2B599CB800093F66 /* FavoriteButton.swift in Sources */,
 				8BAF3B542B51C716002ACECE /* LandmarkList.swift in Sources */,
 				8B50D71D2B5309AF0032B160 /* LandmarkDetail.swift in Sources */,
+				115024DC2B5EBE7F00A631B4 /* BadgeBackground.swift in Sources */,
 				8B623C282B487D5E00698542 /* MapView.swift in Sources */,
 				8BC240152B433E9700948D61 /* LandMarkApp.swift in Sources */,
 				8B39BECA2B4482FE000DCAC0 /* CircleImage.swift in Sources */,
